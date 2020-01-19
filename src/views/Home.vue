@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <a href="/holganicdreamer/">HOLGANIC DREAMER</a>
+      <a href="/holganicdreamer/">HOLGANIC DREAMER</a>&nbsp;-&nbsp;<a href="/holganicdreamer/software/vuejs/vuejsgadget/quizmasterbuzzer/">司会者用ブザー</a>
     </div>
     <ul>
       <li class="question" @click="clickQuestion">出題</li>
@@ -82,7 +82,7 @@ li {
   width: 100%;
   margin: 0 5px;
   color: white;
-  line-height: 85vh;
+  line-height: 75vh;
   font-size: 2rem;
 }
 .question {
