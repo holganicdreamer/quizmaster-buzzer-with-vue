@@ -1,9 +1,17 @@
 <template>
-  <ul>
-    <li class="question" @click="clickQuestion">出題</li>
-    <li class="correct" @click="clickCorrect">正解</li>
-    <li class="wrong" @click="clickWrong">不正解</li>
-  </ul>
+  <div>
+    <div class="header">
+      <a href="/holganicdreamer/">HOLGANIC DREAMER</a>
+    </div>
+    <ul>
+      <li class="question" @click="clickQuestion">出題</li>
+      <li class="correct" @click="clickCorrect">正解</li>
+      <li class="wrong" @click="clickWrong">不正解</li>
+    </ul>
+    <div class="footer">
+      Sound by <a href="https://otologic.jp/" target="_blank">OtoLogic</a>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -42,6 +50,25 @@ export default {
 </script>
 
 <style>
+.header {
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-weight: 900;
+  text-align:left;
+  font-size: 12px;
+}
+.header a {
+  text-decoration: none;
+  color: #777777;
+  font-weight: 600;
+}
+.footer {
+  font-size: 12px;
+}
+.footer a {
+  text-decoration: none;
+  color: #777777;
+  font-weight: 600;
+}
 ul {
   margin: 0;
   padding-left: 0;
@@ -55,7 +82,7 @@ li {
   width: 100%;
   margin: 0 5px;
   color: white;
-  line-height: 90vh;
+  line-height: 85vh;
   font-size: 2rem;
 }
 .question {
