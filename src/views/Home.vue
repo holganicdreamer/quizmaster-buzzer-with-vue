@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="header">
-      <a href="/holganicdreamer/">HOLGANIC DREAMER</a>&nbsp;-&nbsp;<a href="/holganicdreamer/software/vuejs/vuejsgadget/quizmasterbuzzer/">司会者用ブザー</a>
+      <a href="/holganicdreamer/">HOLGANIC DREAMER</a>&nbsp;-&nbsp;<a href="/holganicdreamer/software/vuejsgadget/quizmasterbuzzer/">クイズ司会者用ブザー</a>
     </div>
     <ul>
       <li class="question" @click="clickQuestion">出題</li>
