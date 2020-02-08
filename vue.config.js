@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/holganicdreamer/project/quizmaster-buzzer-with-vue/'
+  publicPath: '/project/quizmaster-buzzer-with-vue/'
 }
